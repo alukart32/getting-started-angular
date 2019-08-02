@@ -1,0 +1,13 @@
+<p>We got!</p>
+
+<div *ngFor="let item of products">
+
+  <div class="flex-container" style="border: 1px solid gray; background-color: #BDBDBD; margin-top: 2em">
+    <h3>
+      Product: {{ item.name }}
+    </h3>
+    <h4 style="margin-left: 1em">
+      Price: {{ item.price }}
+    </h4>
+  </div>
+</div>
